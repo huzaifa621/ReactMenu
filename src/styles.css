@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 20px;
+}
+.App > div > button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 1px solid gray;
+}
